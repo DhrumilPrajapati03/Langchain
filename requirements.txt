@@ -1,0 +1,13 @@
+# Core LangChain
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-groq==0.3.2
+langchain-ollama==0.3.2
+
+# Vector stores
+chromadb==0.6.3
+faiss-cpu==1.10.0
+
+# Utilities
+python-dotenv==1.1.0
+requests==2.32.3
