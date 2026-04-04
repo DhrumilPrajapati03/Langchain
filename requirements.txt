@@ -11,3 +11,6 @@ faiss-cpu==1.10.0
 # Utilities
 python-dotenv==1.1.0
 requests==2.32.3
+
+# Gradio
+gradio==6.0.0
