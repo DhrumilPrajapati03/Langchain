@@ -1,6 +1,7 @@
 # Core LangChain
 langchain==0.3.25
 langchain-community==0.3.24
+langchain-core==0.3.61
 langchain-groq==0.3.2
 langchain-ollama==0.3.2
 
@@ -11,6 +12,13 @@ faiss-cpu==1.10.0
 # Utilities
 python-dotenv==1.1.0
 requests==2.32.3
+wrapt==2.1.2
 
 # Gradio
 gradio==6.0.0
+
+pypdf
+beautifulsoup4
+requests
+lxml
+unstructured
