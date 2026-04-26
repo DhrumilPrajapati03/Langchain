@@ -22,3 +22,4 @@ beautifulsoup4
 requests
 lxml
 unstructured
+duckduckgo-search
