@@ -92,9 +92,9 @@ Langchain/
 |-----|-------|-------------|--------|
 | 6 | Document loaders & splitters | PyPDFLoader, WebBaseLoader, RecursiveCharacterTextSplitter | ✅ |
 | 7 | Embeddings & vector stores | OpenAI embeddings, FAISS, Chroma | ✅ |
-| 8 | RAG pipeline | RetrievalQA, contextual compression, reranking | 🔄 |
-| 9 | Tools & tool calling | @tool, AgentExecutor, custom tools | ⬜ |
-| 10 | 🛠 **Project 2: RAG Document Assistant** | Multi-PDF Q&A with source citations | ⬜ |
+| 8 | RAG pipeline | RetrievalQA, contextual compression, reranking | ✅ |
+| 9 | Tools & tool calling | @tool, AgentExecutor, custom tools | ✅ |
+| 10 | 🛠 **Project 2: RAG Document Assistant** | Multi-PDF Q&A with source citations | 🔄 |
 
 ### Week 3 — LangGraph & Multi-Agent Systems `Days 11–15`
 
