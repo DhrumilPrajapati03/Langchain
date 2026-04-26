@@ -1,0 +1,65 @@
+
+# The Complete Guide to LangChain
+
+## Introduction
+LangChain is an open-source framework released in 2022 by Harrison Chase.
+It simplifies building applications powered by large language models (LLMs).
+The framework supports Python and JavaScript.
+
+## Core Components
+
+### 1. Models
+LangChain supports three types of models:
+- LLMs: text-in, text-out (GPT-3 style)
+- Chat Models: message-in, message-out (GPT-4 style) 
+- Embedding Models: text-in, vector-out
+
+### 2. Prompts
+PromptTemplates allow dynamic prompt construction.
+FewShotPromptTemplates include examples in the prompt.
+ChatPromptTemplates handle multi-turn conversations.
+
+### 3. Chains
+Chains combine components using the pipe operator.
+LCEL (LangChain Expression Language) is the modern way to build chains.
+RunnableParallel runs multiple chains simultaneously.
+RunnablePassthrough passes inputs unchanged through a chain.
+
+### 4. Memory
+ConversationBufferMemory stores full conversation history.
+ConversationSummaryMemory stores a running summary (saves tokens).
+VectorStoreMemory retrieves relevant past messages semantically.
+
+### 5. Agents
+Agents use LLMs to decide which tools to use.
+ReAct agents follow a Reason → Act → Observe loop.
+LangGraph enables multi-agent orchestration with state machines.
+
+### 6. Document Loaders
+PyPDFLoader loads PDF documents page by page.
+WebBaseLoader scrapes and loads web pages.
+CSVLoader loads tabular data row by row.
+TextLoader handles plain text files.
+
+### 7. Vector Stores
+ChromaDB offers persistent storage with metadata filtering.
+FAISS provides fast in-memory approximate nearest neighbor search.
+Pinecone is a managed cloud vector database.
+
+## RAG (Retrieval Augmented Generation)
+RAG was introduced to solve the knowledge cutoff problem.
+It retrieves relevant documents and injects them into the LLM prompt.
+RAG is better than fine-tuning for frequently changing knowledge bases.
+The typical RAG pipeline has two phases: indexing and retrieval.
+
+## LangSmith
+LangSmith is LangChain's observability platform.
+It traces every chain execution for debugging.
+LangSmith offers a free tier with 5000 traces per month.
+
+## Performance Tips
+Use async methods for production deployments.
+Cache embeddings to avoid recomputing them.
+Use MMR retrieval for diverse search results.
+Chunk overlap should be 10-20% of chunk size.
+Temperature=0 gives consistent factual answers in RAG.
