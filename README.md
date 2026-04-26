@@ -94,13 +94,13 @@ Langchain/
 | 7 | Embeddings & vector stores | OpenAI embeddings, FAISS, Chroma | ✅ |
 | 8 | RAG pipeline | RetrievalQA, contextual compression, reranking | ✅ |
 | 9 | Tools & tool calling | @tool, AgentExecutor, custom tools | ✅ |
-| 10 | 🛠 **Project 2: RAG Document Assistant** | Multi-PDF Q&A with source citations | 🔄 |
+| 10 | 🛠 **Project 2: RAG Document Assistant** | Multi-PDF Q&A with source citations | ✅ |
 
 ### Week 3 — LangGraph & Multi-Agent Systems `Days 11–15`
 
 | Day | Topic | Key Concepts | Status |
 |-----|-------|-------------|--------|
-| 11 | ReAct agents | Thought → Action → Observation, AgentExecutor | ⬜ |
+| 11 | ReAct agents | Thought → Action → Observation, AgentExecutor | 🔄 |
 | 12 | LangGraph intro | StateGraph, nodes, edges, TypedDict | ⬜ |
 | 13 | LangGraph patterns | Loops, branches, human-in-loop, interrupt_before | ⬜ |
 | 14 | Multi-agent orchestration | Supervisor pattern, subgraphs, agent handoff | ⬜ |
