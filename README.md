@@ -2,7 +2,7 @@
 
 > A structured, hands-on repository documenting my 30-day journey from LangChain foundations to production-ready deep agents — covering LangChain, LangGraph, RAG, multi-agent systems, and trending AI engineering skills.
 
-![Progress](https://img.shields.io/badge/Progress-Week%202%20of%204-blue?style=flat-square)
+![Progress](https://img.shields.io/badge/Progress-Week%203%20of%204-blue?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-0.3+-1C3C3C?style=flat-square)
 ![LangGraph](https://img.shields.io/badge/LangGraph-0.2+-7F77DD?style=flat-square)
