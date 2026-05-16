@@ -101,10 +101,10 @@ Langchain/
 | Day | Topic | Key Concepts | Status |
 |-----|-------|-------------|--------|
 | 11 | ReAct agents | Thought → Action → Observation, AgentExecutor | ✅ |
-| 12 | LangGraph intro | StateGraph, nodes, edges, TypedDict | 🔄 |
-| 13 | LangGraph patterns | Loops, branches, human-in-loop, interrupt_before | 🔄 |
-| 14 | Multi-agent orchestration | Supervisor pattern, subgraphs, agent handoff | ⬜ |
-| 15 | 🛠 **Project 3: Deep Research Agent** | Planner → Tasks → Observer graph with Tavily | ⬜ |
+| 12 | LangGraph intro | StateGraph, nodes, edges, TypedDict | ✅ |
+| 13 | LangGraph patterns | Loops, branches, human-in-loop, interrupt_before | ✅ |
+| 14 | Multi-agent orchestration | Supervisor pattern, subgraphs, agent handoff | ✅ |
+| 15 | 🛠 **Project 3: Deep Research Agent** | Planner → Tasks → Observer graph with Tavily | 🔄 |
 
 ### Week 4 — Deep Agents & Production `Days 16–30`
 
