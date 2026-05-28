@@ -104,13 +104,13 @@ Langchain/
 | 12 | LangGraph intro | StateGraph, nodes, edges, TypedDict | ✅ |
 | 13 | LangGraph patterns | Loops, branches, human-in-loop, interrupt_before | ✅ |
 | 14 | Multi-agent orchestration | Supervisor pattern, subgraphs, agent handoff | ✅ |
-| 15 | 🛠 **Project 3: Deep Research Agent** | Planner → Tasks → Observer graph with Tavily | 🔄 |
+| 15 | 🛠 **Project 3: Deep Research Agent** | Planner → Tasks → Observer graph with Tavily | ✅ |
 
 ### Week 4 — Deep Agents & Production `Days 16–30`
 
 | Day | Topic | Key Concepts | Status |
 |-----|-------|-------------|--------|
-| 16 | Advanced memory | LangMem, episodic/semantic memory, summarization | ⬜ |
+| 16 | Advanced memory | LangMem, episodic/semantic memory, summarization | 🔄 |
 | 17 | Evals & LangSmith | Tracing, evaluation datasets, custom evaluators | ⬜ |
 | 18 | Structured outputs | with_structured_output(), Pydantic, JSON mode | ⬜ |
 | 19 | MCP & agent protocols | Model Context Protocol, A2A communication | ⬜ |
