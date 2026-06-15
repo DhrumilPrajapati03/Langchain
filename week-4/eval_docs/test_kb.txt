@@ -1,0 +1,15 @@
+
+LangChain Overview:
+LangChain was created by Harrison Chase and released in 2022.
+It supports Python and JavaScript.
+The core components are: Models, Prompts, Chains, Memory, Agents.
+
+LangGraph Overview:
+LangGraph was built on top of LangChain and released in 2024.
+It uses StateGraph for defining workflows.
+It supports human-in-the-loop patterns using interrupt().
+
+LangSmith Overview:
+LangSmith is the observability platform for LangChain.
+Free tier includes 5,000 traces per month.
+It supports dataset creation and LLM-as-judge evaluation.
