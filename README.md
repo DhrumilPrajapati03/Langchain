@@ -111,7 +111,7 @@ Langchain/
 | Day | Topic | Key Concepts | Status |
 |-----|-------|-------------|--------|
 | 16 | Advanced memory | LangMem, episodic/semantic memory, summarization | 🔄 |
-| 17 | Evals & LangSmith | Tracing, evaluation datasets, custom evaluators | ⬜ |
+| 17 | Evals & LangSmith | Tracing, evaluation datasets, custom evaluators | ✅ |
 | 18 | Structured outputs | with_structured_output(), Pydantic, JSON mode | ⬜ |
 | 19 | MCP & agent protocols | Model Context Protocol, A2A communication | ⬜ |
 | 20 | Fine-tuning & prompting | LoRA, QLoRA, DSPy auto-optimization | ⬜ |
