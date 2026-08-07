@@ -11,7 +11,7 @@
 
 ## 📌 About This Repository
 
-This repo is my public learning log for mastering the modern AI engineering stack — starting from LangChain basics, moving through RAG pipelines and agents, then into LangGraph-powered multi-agent systems, and finally deploying production-grade deep agents. Every section has dedicated notebooks, notes, and a capstone project.
+This repo is my private learning log for mastering the modern AI engineering stack — starting from LangChain basics, moving through RAG pipelines and agents, then into LangGraph-powered multi-agent systems, and finally deploying production-grade deep agents. Every section has dedicated notebooks, notes, and a capstone project.
 
 **Learning philosophy:** Learn by building. Every concept is backed by a working notebook and every section ends with a real project inspired by production deployments at companies like LinkedIn, Replit, Uber, and Exa.
 
