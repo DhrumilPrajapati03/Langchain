@@ -1,0 +1,4 @@
+# GitHub Linguist overrides
+# Exclude Jupyter notebooks from language statistics entirely
+*.ipynb linguist-vendored
+*.ipynb linguist-detectable=false
