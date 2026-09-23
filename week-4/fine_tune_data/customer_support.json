@@ -1,0 +1,50 @@
+[
+  {
+    "instruction": "Customer says: My order hasn't arrived yet. Order #12345",
+    "input": "",
+    "output": "I apologize for the delay. Let me check order #12345 for you right away. Could you please confirm your email address so I can pull up the details and provide you with an accurate update on your delivery status?",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: My order hasn't arrived yet. Order #12345\n\n### Response:\nI apologize for the delay. Let me check order #12345 for you right away. Could you please confirm your email address so I can pull up the details and provide you with an accurate update on your delivery status?"
+  },
+  {
+    "instruction": "Customer says: I want to return this product",
+    "input": "",
+    "output": "I'd be happy to help you with your return. Our return policy allows returns within 30 days of purchase. Please provide your order number and reason for return, and I'll initiate the process immediately.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: I want to return this product\n\n### Response:\nI'd be happy to help you with your return. Our return policy allows returns within 30 days of purchase. Please provide your order number and reason for return, and I'll initiate the process immediately."
+  },
+  {
+    "instruction": "Customer says: The product is broken",
+    "input": "",
+    "output": "I'm sorry to hear the product arrived damaged. This is not the experience we want for our customers. Please share a photo of the damage and your order number, and we'll arrange a replacement or full refund right away.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: The product is broken\n\n### Response:\nI'm sorry to hear the product arrived damaged. This is not the experience we want for our customers. Please share a photo of the damage and your order number, and we'll arrange a replacement or full refund right away."
+  },
+  {
+    "instruction": "Customer says: How do I track my order?",
+    "input": "",
+    "output": "You can track your order in three ways: (1) Check the tracking link in your confirmation email, (2) Log into your account and visit 'My Orders', or (3) Reply here with your order number and I'll get the latest update for you.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: How do I track my order?\n\n### Response:\nYou can track your order in three ways: (1) Check the tracking link in your confirmation email, (2) Log into your account and visit 'My Orders', or (3) Reply here with your order number and I'll get the latest update for you."
+  },
+  {
+    "instruction": "Customer says: I was charged twice",
+    "input": "",
+    "output": "I sincerely apologize for the double charge \u2014 that should never happen. I'm escalating this to our billing team immediately. Please share your order number and the last 4 digits of the card charged, and we'll process a refund within 3-5 business days.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: I was charged twice\n\n### Response:\nI sincerely apologize for the double charge \u2014 that should never happen. I'm escalating this to our billing team immediately. Please share your order number and the last 4 digits of the card charged, and we'll process a refund within 3-5 business days."
+  },
+  {
+    "instruction": "Customer says: Cancel my subscription",
+    "input": "",
+    "output": "I understand you'd like to cancel. Before I process that, may I ask what prompted this decision? If there's something we can improve, I'd love to help. If you'd still like to proceed, I can cancel immediately with no further charges.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: Cancel my subscription\n\n### Response:\nI understand you'd like to cancel. Before I process that, may I ask what prompted this decision? If there's something we can improve, I'd love to help. If you'd still like to proceed, I can cancel immediately with no further charges."
+  },
+  {
+    "instruction": "Customer says: The app keeps crashing",
+    "input": "",
+    "output": "I'm sorry the app is giving you trouble. Let's fix this quickly. Could you tell me: (1) Your device model and OS version, (2) When the crashes started, (3) What you were doing when it crashed? This will help me get you the right solution.",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: The app keeps crashing\n\n### Response:\nI'm sorry the app is giving you trouble. Let's fix this quickly. Could you tell me: (1) Your device model and OS version, (2) When the crashes started, (3) What you were doing when it crashed? This will help me get you the right solution."
+  },
+  {
+    "instruction": "Customer says: I never received my refund",
+    "input": "",
+    "output": "I apologize for this delay. Refunds typically take 5-7 business days to appear. Let me check the status of your refund right now. Could you share your order number and the email associated with your account?",
+    "text": "Below is an instruction that describes a task.\nWrite a response that appropriately completes the request.\n\n### Instruction:\nCustomer says: I never received my refund\n\n### Response:\nI apologize for this delay. Refunds typically take 5-7 business days to appear. Let me check the status of your refund right now. Could you share your order number and the email associated with your account?"
+  }
+]

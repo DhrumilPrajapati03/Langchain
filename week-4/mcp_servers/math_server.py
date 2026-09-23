@@ -3,6 +3,7 @@
 # A simple MCP server exposing math tools
 
 from mcp.server.fastmcp import FastMCP
+import json
 import math
 
 # Create MCP server
