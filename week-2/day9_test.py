@@ -56,7 +56,7 @@ from datetime import datetime
 
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 print("✅ Ready")
 
 # #### 4. Creating Tools — Three Ways

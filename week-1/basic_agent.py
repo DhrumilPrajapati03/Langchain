@@ -11,7 +11,7 @@ def get_weather(city: str) -> str:
     return f"It's always sunny in {city}!"
 
 # Initialize the Groq model
-llm = ChatGroq(model="llama-3.3-70b-versatile")
+llm = ChatGroq(model="openai/gpt-oss-20b")
 
 # Create the agent
 agent = create_agent(

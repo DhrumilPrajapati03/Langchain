@@ -13,7 +13,7 @@ print(f"API Key present: {'Yes' if os.getenv('GROQ_API_KEY') else 'No'}")
 
 # Best models available on Groq free tier (as of 2025)
 groq_models = {
-    "best_overall":   "llama-3.3-70b-versatile",   # use this most often
+    "best_overall":   "openai/gpt-oss-20b",   # use this most often
     "fastest":        "llama-3.1-8b-instant",       # when speed matters
     "coding":         "qwen-2.5-coder-32b",         # for code generation
     "reasoning":      "deepseek-r1-distill-llama-70b", # for complex tasks
@@ -22,7 +22,7 @@ groq_models = {
 from langchain_groq import ChatGroq
 
 llm_groq = ChatGroq(
-    model = "llama-3.3-70b-versatile",
+    model = "openai/gpt-oss-20b",
     temperature=0.7
 )
 
@@ -76,7 +76,7 @@ tools = [get_weather]
 
 # 2. Initialize the Groq model
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-20b",
     temperature=0
 )
 

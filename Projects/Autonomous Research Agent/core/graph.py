@@ -26,7 +26,7 @@ def finalizer_node(state: ResearchState) -> dict:
     if score >= 7.5:
         # Minor polish only
         llm = get_llm(
-            model="llama-3.3-70b-versatile", temperature=0.3
+            model="openai/gpt-oss-20b", temperature=0.3
         )
         final = llm.invoke([
             SystemMessage(content="Lightly polish this report. Fix flow, keep all content."),
@@ -35,7 +35,7 @@ def finalizer_node(state: ResearchState) -> dict:
     else:
         # Full rewrite with all context
         llm = get_llm(
-            model="llama-3.3-70b-versatile", temperature=0.5
+            model="openai/gpt-oss-20b", temperature=0.5
         )
         final = llm.invoke([
             SystemMessage(content="""Write a high-quality research report.

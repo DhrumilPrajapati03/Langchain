@@ -66,7 +66,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm    = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm    = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 fast   = ChatGroq(model="llama-3.1-8b-instant",    temperature=0)
 client = Client()
 
@@ -353,7 +353,7 @@ results = evaluate(
     ],
     experiment_prefix="baseline",       # shown in LangSmith
     metadata={
-        "model":    "llama-3.3-70b-versatile",
+        "model":    "openai/gpt-oss-20b",
         "version":  "1.0",
         "day":      "day17"
     }

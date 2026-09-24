@@ -29,7 +29,7 @@ import operator, json, time, os
 from duckduckgo_search import DDGS
 
 load_dotenv()
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 print("✅ Ready")
 
 # ##### 2. Pattern 1 — Retry Loop with Error Handling

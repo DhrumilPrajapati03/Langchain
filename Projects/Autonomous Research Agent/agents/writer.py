@@ -6,7 +6,7 @@ from core.state import ResearchState
 from core.tools import WRITER_TOOLS
 
 llm = get_llm(
-    model="llama-3.3-70b-versatile", temperature=0.7
+    model="openai/gpt-oss-20b", temperature=0.7
 ).bind_tools(WRITER_TOOLS)
 
 SYSTEM = """You are an expert research writer who creates

@@ -63,7 +63,7 @@ import os, shutil
 load_dotenv()
 
 # LLM - Groq for quality answers
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 # temperature=0 for RAG - we want factual, consistent answers
 
 # Embeddings - local Ollama

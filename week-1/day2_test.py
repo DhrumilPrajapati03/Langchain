@@ -40,19 +40,19 @@ load_dotenv()
 question = "Give me a one-word color"
 
 for temp in [0.0, 0.7, 1.5]:
-    llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=temp)
+    llm = ChatGroq(model="openai/gpt-oss-20b", temperature=temp)
     responses = [llm.invoke(question).content for _ in range(3)]
     print(f"Temperature {temp}: {responses}")
 
 # Cell 3: max_tokens controls response length
 llm_short = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-20b",
     temperature=0.7,
     max_tokens=20      # cuts off after 20 tokens
 )
 
 llm_long = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-20b",
     temperature=0.7,
     max_tokens=500
 )
@@ -64,7 +64,7 @@ print("\nLONG:", llm_long.invoke(q).content)
 # Cell 4: System prompts in action
 from langchain_core.messages import SystemMessage, HumanMessage
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 # Without system prompt
 response1 = llm.invoke("What is recursion?")
@@ -92,7 +92,7 @@ print("FOR A 10-YEAR-OLD:")
 print(response3.content)
 
 # Cell 5: invoke - waits for full response
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 response = llm.invoke("Count from 1 to 5 slowly")
 print("INVOKE (all at once):")
@@ -156,7 +156,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 response = llm.invoke("Explain decorators in Python in 2 sentences")
 
@@ -173,6 +173,6 @@ print(f"Input tokens:  {usage.get('prompt_tokens', 'N/A')}")
 print(f"Output tokens: {usage.get('completion_tokens', 'N/A')}")
 print(f"Total tokens:  {usage.get('total_tokens', 'N/A')}")
 
-# - llama-3.3-70b-versatile → 14,400 requests/day, 131K tokens/min
+# - openai/gpt-oss-20b → 14,400 requests/day, 131K tokens/min
 # - llama-3.1-8b-instant → 14,400 requests/day, 131K tokens/min
 # - When you hit limits → switch to Ollama locally, zero limits

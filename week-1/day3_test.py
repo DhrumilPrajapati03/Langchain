@@ -122,7 +122,7 @@ for item in result:
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 # Chain 1: summarize
 summarize_prompt = ChatPromptTemplate.from_messages([
@@ -174,7 +174,7 @@ print(result)
 # Cell 7: Run chains in parallel - much faster than sequential
 from langchain_core.runnables import RunnableParallel
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 # Three different analysis chains
 pros_chain = (
@@ -236,7 +236,7 @@ print(result["use_cases"])
 # Cell 8: RunnablePassthrough - keep original input alongside output
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 explain_prompt = ChatPromptTemplate.from_messages([
     ("system", "Explain this concept in one sentence."),
@@ -260,7 +260,7 @@ print(f"Explanation: {result['explanation']}")
 # #### Streaming with LCEL Chains
 
 # Cell 9: Stream entire chain output
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 chain = (
     ChatPromptTemplate.from_messages([
@@ -289,7 +289,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.3)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.3)
 
 bugs_chain = (
     ChatPromptTemplate.from_messages([

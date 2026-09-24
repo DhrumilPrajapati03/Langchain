@@ -6,7 +6,7 @@ from core.state import ResearchState
 from core.tools import ANALYST_TOOLS
 
 llm = get_llm(
-    model="llama-3.3-70b-versatile", temperature=0
+    model="openai/gpt-oss-20b", temperature=0
 ).bind_tools(ANALYST_TOOLS)
 
 SYSTEM = """You are a senior research analyst and strategic thinker.

@@ -56,10 +56,10 @@ load_dotenv()
 
 # Different temperature for different agent roles
 llm_precise = ChatGroq(
-    model="llama-3.3-70b-versatile", temperature=0
+    model="openai/gpt-oss-20b", temperature=0
 )    # for analysis, facts
 llm_creative = ChatGroq(
-    model="llama-3.3-70b-versatile", temperature=0.7
+    model="openai/gpt-oss-20b", temperature=0.7
 )   # for writing
 llm_fast = ChatGroq(
     model="llama-3.1-8b-instant", temperature=0

@@ -92,7 +92,7 @@ def main():
             elif user_input.lower() == "/cloud":
                 from langchain_groq import ChatGroq
                 rag.llm = ChatGroq(
-                    model="llama-3.3-70b-versatile",
+                    model="openai/gpt-oss-20b",
                     temperature=0
                 )
                 rag.backend = "Groq (cloud)"

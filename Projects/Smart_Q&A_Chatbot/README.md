@@ -9,7 +9,7 @@ A powerful, Persona-driven AI chatbot built with **LangChain**, **Groq**, and **
 - **🧠 Conversation Memory**: Remembers past interactions within a configurable context window (default: 20 messages).
 - **🎭 Multi-Persona System**: Switch between different specialized AI personalities on the fly.
 - **☁️ Cloud & 🏠 Local Support**: 
-  - **Groq (Cloud)**: Uses `llama-3.3-70b-versatile` for high-speed, intelligent responses.
+  - **Groq (Cloud)**: Uses `openai/gpt-oss-20b` for high-speed, intelligent responses.
   - **Ollama (Local)**: Uses `llama3.2` for private, offline inference.
 - **📟 Dual Interfaces**:
   - **CLI (Terminal)**: Lightweight streaming interface for command-line power users.

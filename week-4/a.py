@@ -16,7 +16,7 @@ load_dotenv(dotenv_path=env_path)
 if not os.getenv("GROQ_API_KEY"):
     raise RuntimeError(f"GROQ_API_KEY is not set. Check {env_path}")
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 print("✅ Ready")
 
 

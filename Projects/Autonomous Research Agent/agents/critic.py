@@ -7,7 +7,7 @@ from core.state import ResearchState
 from core.tools import CRITIC_TOOLS
 
 llm = get_llm(
-    model="llama-3.3-70b-versatile", temperature=0
+    model="openai/gpt-oss-20b", temperature=0
 ).bind_tools(CRITIC_TOOLS)
 
 SYSTEM = """You are a rigorous research editor and quality reviewer.

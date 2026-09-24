@@ -42,7 +42,7 @@ class SmartChatbot:
             self.backend = "Ollama (local)"
         else:
             self.llm = ChatGroq(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-20b",
                 temperature=0.7
             )
             self.backend = "Groq (cloud)"

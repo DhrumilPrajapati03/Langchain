@@ -6,7 +6,7 @@ from core.state import ResearchState
 from core.tools import RESEARCHER_TOOLS
 
 llm = get_llm(
-    model="llama-3.3-70b-versatile", temperature=0
+    model="openai/gpt-oss-20b", temperature=0
 ).bind_tools(RESEARCHER_TOOLS)
 
 SYSTEM = """You are an elite research agent.
@@ -73,7 +73,7 @@ Start broad, then get specific.""")
 
     # Compile final research notes
     compile_resp = get_llm(
-        model="llama-3.3-70b-versatile", temperature=0
+        model="openai/gpt-oss-20b", temperature=0
     ).invoke([
         SystemMessage(content="""Compile all research into structured notes.
 Format:

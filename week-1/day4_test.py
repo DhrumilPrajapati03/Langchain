@@ -17,7 +17,7 @@ from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 load_dotenv()
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 # BAD prompt
 bad = llm.invoke("fix my code: def add(a,b) return a+b").content
@@ -273,7 +273,7 @@ for imp in result['improvements']:
     print(f"  - {imp}")
 
 # Cell 9: Generate → Critique → Improve pattern
-llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0.7)
 
 # Step 1: Generate first draft
 generate_chain = (

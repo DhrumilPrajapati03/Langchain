@@ -114,7 +114,7 @@ def switch_backend(choice):
     if choice == "Groq (cloud)":
         from langchain_groq import ChatGroq
         rag.llm = ChatGroq(
-            model="llama-3.3-70b-versatile", temperature=0
+            model="openai/gpt-oss-20b", temperature=0
         )
         rag.backend = "Groq (cloud)"
     else:
